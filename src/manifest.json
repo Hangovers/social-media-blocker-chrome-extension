@@ -5,6 +5,12 @@
   "permissions": ["storage"],
   "description": "An extension that blocks access to social media websites during specific hours of the day, helping you reduce distractions and improve your productivity.",
   "author": "Ramin Mikayilov",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "social-media-blocker@hangovers.github.io",
+      "strict_min_version": "109.0"
+    }
+  },
   "icons": {
     "16": "assets/icons/icon16.png",
     "48": "assets/icons/icon48.png",

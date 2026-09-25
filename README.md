@@ -20,6 +20,20 @@ The Social Media Blocker Chrome Extension allows you to block access to social m
 5. Click on "Load unpacked" and select the cloned/downloaded/src repository folder.
 6. The Social Media Blocker extension will be added to your Chrome browser.
 
+## Installation on Floorp (Firefox)
+
+The extension also runs in Floorp (a Firefox-based browser) as a WebExtension:
+
+1. Clone or download this repository.
+2. Open Floorp and enter `about:debugging` in the address bar.
+3. Click "This Floorp" ("This Firefox") in the sidebar.
+4. Click "Load Temporary Add-on…" and select `src/manifest.json` from the cloned repository.
+5. The Social Media Blocker extension will be added to your Floorp browser.
+
+Note: temporary add-ons are removed when Floorp restarts, so repeat these steps
+after each restart. For Chrome-style Web Store installs, Floorp can also install
+extensions directly from the Chrome Web Store.
+
 ## Usage
 
 1. Click on the extension icon in the Chrome toolbar to open the options page.
